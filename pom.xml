@@ -103,6 +103,11 @@
 			<artifactId>commons-fileupload</artifactId>
 			<version>1.4</version>
 		</dependency>
+		<dependency>
+   			 <groupId>com.google.appengine</groupId>
+  			  <artifactId>appengine-api-1.0-sdk</artifactId>
+ 			   <version>1.9.91</version> <!-- Phiên bản cụ thể -->
+		</dependency>
 	</dependencies>
 
 	<build>
@@ -124,6 +129,11 @@
 				<artifactId>appengine-maven-plugin</artifactId>
 				<version>2.4.4</version>
 			</plugin>
+			<plugin>
+        		        <groupId>com.google.cloud.tools</groupId>
+          			<artifactId>appengine-maven-plugin</artifactId>
+           			<version>2.4.0</version> <!-- Phiên bản cụ thể -->
+       			</plugin>
 		</plugins>
 	</build>
 
